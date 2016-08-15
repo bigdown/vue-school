@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+ <title>Vue Example</title>
+ <style type="text/css">
+	*{
+	  margin: 0;
+	  padding: 0;
+	}
+	body,html{
+	  height: 100%;
+	  overflow-y: hidden;
+	  overflow-x: auto;
+	  width: 100%;
+	  font-family: "Hiragino Sans GB","Tahoma","microsoft yahei ui","microsoft yahei","simsun";
+	  position: relative;
+	}
+	.expand-transition {
+		transition: all .3s ease;
+	}
+	.expand-enter, .expand-leave {
+		height: 0;
+		position: absolute;
+		top: 51px;
+		opacity: 0;
+	}
+	.main-content{
+		left: 0;
+		right: 0;
+		bottom: 0px;
+		overflow-y: auto;
+	}
+ </style>
+ </head>
+ <body>
+ <div id="app">
+ 	<router-view keep-alive transition="expand"></router-view>
+ </div>
+ <script src="dist/build.js"></script>
+ </body>
+</html>
