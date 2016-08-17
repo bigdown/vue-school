@@ -38,15 +38,42 @@ router.map({
         },
         auth:true
 	},
-    '/home':{
+    '/app':{
     	component: function (resolve) {
-            require(['./home.vue'], resolve)
+            require(['./app.vue'], resolve)
         },
-        auth:true
+        auth:true,
+        subRoutes:{
+            '/home':{
+                component: function (resolve) {
+                    require(['./home.vue'], resolve)
+                },
+                auth:true
+            },
+            '/message':{
+                component: function (resolve) {
+                    require(['./message.vue'], resolve)
+                },
+                auth:true
+            },
+            '/clame':{
+                component: function (resolve) {
+                    require(['./clame.vue'], resolve)
+                },
+                auth:true
+            },
+            '/line':{
+                component: function (resolve) {
+                    require(['./line.vue'], resolve)
+                },
+                auth:true
+            }            
+        }
     }
+    
 })
 router.redirect({
-  '*': '/home'
+  '*': '/app/home'
 })
 
 var InitApp = Vue.extend({

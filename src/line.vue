@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<p>home</p>
+		<p>1222223</p>
 	</div>
 </template>
 
@@ -26,7 +26,7 @@ export default {
 	},
 	route:{
 		data:function(transient){
-			this.modifyTitle('首页')
+			this.modifyTitle('line')
 		}
 	}
 }

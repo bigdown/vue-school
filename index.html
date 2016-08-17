@@ -10,9 +10,9 @@
 	  padding: 0;
 	}
 	body,html{
-	  height: 100%;
-	  overflow-y: hidden;
-	  overflow-x: auto;
+	  /*height: 100%;*/
+	  overflow-y: auto;
+	  overflow-x: hidden;
 	  width: 100%;
 	  font-family: "Hiragino Sans GB","Tahoma","microsoft yahei ui","microsoft yahei","simsun";
 	  position: relative;
@@ -21,17 +21,12 @@
 		transition: all .3s ease;
 	}
 	.expand-enter, .expand-leave {
-		height: 0;
+/*		height: 0;
 		position: absolute;
-		top: 51px;
+		top: 0px;*/
 		opacity: 0;
 	}
-	.main-content{
-		left: 0;
-		right: 0;
-		bottom: 0px;
-		overflow-y: auto;
-	}
+
  </style>
  </head>
  <body>

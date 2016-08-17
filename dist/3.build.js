@@ -1,4 +1,4 @@
-webpackJsonp([2],[
+webpackJsonp([3],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -8,69 +8,9 @@ webpackJsonp([2],[
 /* 6 */,
 /* 7 */,
 /* 8 */,
-/* 9 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(10)
-	__vue_script__ = __webpack_require__(14)
-	__vue_template__ = __webpack_require__(29)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "E:\\nodejs\\vue-school\\src\\home.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 10 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(11);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(13)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-65ee6870&file=home.vue&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./home.vue", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-65ee6870&file=home.vue&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./home.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 11 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(12)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "\r\n\t.scontent[_v-65ee6870]{\r\n\t\theight: 100%;\r\n\t\twidth: 100%;\r\n\t\tposition: relative;\r\n\t\tpadding: 50px 0;\r\n\t\toverflow-y: auto;\r\n\t\t/*z-index: 10;*/\r\n\t}\r\n", ""]);
-
-	// exports
-
-
-/***/ },
+/* 9 */,
+/* 10 */,
+/* 11 */,
 /* 12 */
 /***/ function(module, exports) {
 
@@ -379,90 +319,7 @@ webpackJsonp([2],[
 
 
 /***/ },
-/* 14 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
-
-	var _sheader = __webpack_require__(15);
-
-	var _sheader2 = _interopRequireDefault(_sheader);
-
-	var _sfooter = __webpack_require__(20);
-
-	var _sfooter2 = _interopRequireDefault(_sfooter);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	// <template>
-	// 	<div>
-	// 		<sheader :raction="raction" :laction="laction" :title="title"></sheader>
-	// 		<div class="scontent">
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>1222223</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 			<p>123</p>
-	// 		</div>
-	// 		<sfooter></sfooter>
-	// 	</div>
-	// </template>
-	//
-	// <script>
-	exports.default = {
-		data: function data() {
-			return {
-				title: '首页',
-				raction: '',
-				laction: ''
-			};
-		},
-
-		components: {
-			sheader: _sheader2.default,
-			sfooter: _sfooter2.default
-		}
-	};
-
-	// </script>
-	//
-	// <style scoped>
-	// 	.scontent{
-	// 		height: 100%;
-	// 		width: 100%;
-	// 		position: relative;
-	// 		padding: 50px 0;
-	// 		overflow-y: auto;
-	// 		/*z-index: 10;*/
-	// 	}
-	// </style>
-
-/***/ },
+/* 14 */,
 /* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -756,10 +613,137 @@ webpackJsonp([2],[
 	module.exports = "\n\t<footer _v-022af059=\"\">\n\t\t<div v-link=\"{ path: '/home' }\" class=\"home\" _v-022af059=\"\"></div>\n\t\t<div v-link=\"{ path: '/message' }\" class=\"message\" _v-022af059=\"\"></div>\n\t\t<div v-link=\"{ path: '/clame' }\" class=\"clame\" _v-022af059=\"\"></div>\n\t\t<div v-link=\"{ path: '/line' }\" class=\"line\" _v-022af059=\"\"></div>\n\t</footer>\n";
 
 /***/ },
-/* 29 */
+/* 29 */,
+/* 30 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(31)
+	__vue_script__ = __webpack_require__(33)
+	__vue_template__ = __webpack_require__(34)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) { (typeof module.exports === "function" ? module.exports.options : module.exports).template = __vue_template__ }
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "E:\\nodejs\\vue-school\\src\\message.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 31 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(32);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(13)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-60c7dff4&file=message.vue&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./message.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-60c7dff4&file=message.vue&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./message.vue");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 32 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(12)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "\r\n\t.scontent[_v-60c7dff4]{\r\n\t\theight: 100%;\r\n\t\twidth: 100%;\r\n\t\tposition: relative;\r\n\t\tpadding: 50px 0;\r\n\t\toverflow-y: auto;\r\n\t\t/*z-index: 10;*/\r\n\t}\r\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 33 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _sheader = __webpack_require__(15);
+
+	var _sheader2 = _interopRequireDefault(_sheader);
+
+	var _sfooter = __webpack_require__(20);
+
+	var _sfooter2 = _interopRequireDefault(_sfooter);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	// <template>
+	// 	<div>
+	// 		<sheader :raction="raction" :laction="laction" :title="title"></sheader>
+	// 		<div class="scontent">
+	// 			<p>123</p>
+	// 			<p>1222223</p>
+	// 			<p>123</p>
+	// 			<p>123</p>
+	// 			<p>123</p>
+	// 		</div>
+	// 		<sfooter></sfooter>
+	// 	</div>
+	// </template>
+	//
+	// <script>
+	exports.default = {
+		data: function data() {
+			return {
+				title: '通讯录',
+				raction: '',
+				laction: ''
+			};
+		},
+
+		components: {
+			sheader: _sheader2.default,
+			sfooter: _sfooter2.default
+		}
+	};
+
+	// </script>
+	//
+	// <style scoped>
+	// 	.scontent{
+	// 		height: 100%;
+	// 		width: 100%;
+	// 		position: relative;
+	// 		padding: 50px 0;
+	// 		overflow-y: auto;
+	// 		/*z-index: 10;*/
+	// 	}
+	// </style>
+
+/***/ },
+/* 34 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\t<div _v-65ee6870=\"\">\n\t\t<sheader :raction=\"raction\" :laction=\"laction\" :title=\"title\" _v-65ee6870=\"\"></sheader>\n\t\t<div class=\"scontent\" _v-65ee6870=\"\">\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">1222223</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t\t<p _v-65ee6870=\"\">123</p>\n\t\t</div>\n\t\t<sfooter _v-65ee6870=\"\"></sfooter>\n\t</div>\n";
+	module.exports = "\n\t<div _v-60c7dff4=\"\">\n\t\t<sheader :raction=\"raction\" :laction=\"laction\" :title=\"title\" _v-60c7dff4=\"\"></sheader>\n\t\t<div class=\"scontent\" _v-60c7dff4=\"\">\n\t\t\t<p _v-60c7dff4=\"\">123</p>\n\t\t\t<p _v-60c7dff4=\"\">1222223</p>\n\t\t\t<p _v-60c7dff4=\"\">123</p>\n\t\t\t<p _v-60c7dff4=\"\">123</p>\n\t\t\t<p _v-60c7dff4=\"\">123</p>\n\t\t</div>\n\t\t<sfooter _v-60c7dff4=\"\"></sfooter>\n\t</div>\n";
 
 /***/ }
 ]);
