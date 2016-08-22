@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<sheader :raction="raction" :laction="laction" :title="titlestr"></sheader>
-		<router-view class="scontent" keep-alive></router-view>
+		<router-view keep-alive></router-view>
 		<sfooter></sfooter>
 	</div>
 </template>
@@ -34,12 +34,11 @@ export default {
 </script>
 
 <style scoped>
-	.scontent{
+/*	.scontent{
 		height: 100%;
 		width: 100%;
 		position: relative;
 		padding: 50px 0;
 		overflow-y: auto;
-		/*z-index: 10;*/
-	}
+	}*/
 </style>
